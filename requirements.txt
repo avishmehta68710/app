@@ -1,0 +1,6 @@
+python3
+django
+django-rest_framework
+
+whitenoise
+gunicorn
