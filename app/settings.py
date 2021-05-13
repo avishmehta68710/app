@@ -25,7 +25,7 @@ SECRET_KEY = 'jn-&(4$e*7@6ltfslc_8c@#j+1h7$4r1*p3(c)@98#z8x236uz'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['http://127.0.0.1:8000']
+ALLOWED_HOSTS = ['http://127.0.0.1:8000','https://nuturelabsinterntask.herokuapp.com/']
 
 
 # Application definition
