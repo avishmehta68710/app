@@ -2,7 +2,6 @@
 
 {% block content %}
 <h1>Booked Calls</h1>
-<!-- {{content}} -->
     {% for i in content %}
         {% for j in i %}
             <strong>{{j.advisor_name}}</strong>
@@ -17,7 +16,5 @@
             </ul>
         {% endfor %}
     {% endfor %}
-    <!-- {{cont}}
-    {{c}} -->
 
 {% endblock %}  

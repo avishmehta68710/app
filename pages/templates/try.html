@@ -391,14 +391,6 @@
 </head>
 
 <body>
-    {% comment %} {%block body%} {%for message in messages%}
-    <div class="alert alert-{{message.tags}} alert-dismissible fade show" role="alert">
-        <strong>message</strong>{{message}}
-        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-        <span aria-hidden="true">&times;</span>
-    </button>
-    </div>
-    {%endfor%} {%endblock%}  {% endcomment %}
     {% block content %}
     <div class="container">
         <div class="forms-container">
@@ -421,7 +413,7 @@
                         <input type="password" id="password" name="password" placeholder="Password" required>
                     </div>
                     <input type="submit" name="submit" value="Submit">
-                    <a style="position: relative;LEFT:100px;BOTTOM:30px;" href="http://127.0.0.1:8000/user/login/">Login</a>
+                    <a style="position: relative;LEFT:100px;BOTTOM:30px;" href="https://protected-inlet-42274.herokuapp.com/user/login/">Login</a>
                 </form>
                 <div>
                     {%for message in messages%}
