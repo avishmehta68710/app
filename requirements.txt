@@ -1,7 +1,8 @@
 
 django
 djangorestframework
-djangorestframework-simplejwt
+# djangorestframework-simplejwt
 whitenoise
 gunicorn
 south
+whitenoise
