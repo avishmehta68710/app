@@ -25,7 +25,7 @@ SECRET_KEY = 'jn-&(4$e*7@6ltfslc_8c@#j+1h7$4r1*p3(c)@98#z8x236uz'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['http://127.0.0.1:8000','whispering-badlands-77142.herokuapp.com/','protected-inlet-42274.herokuapp.com/']
+ALLOWED_HOSTS = ['protected-inlet-42274.herokuapp.com']
 
 
 
