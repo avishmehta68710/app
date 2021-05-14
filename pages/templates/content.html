@@ -8,8 +8,8 @@
     {% for i in content %}
         
         <strong><li>{{ i.advisor_name }}</li></strong>
-        <img src="{{media_url}}/images/{{ i.advisor_image }}">
-            {{ i.advisor_id}}  
+        {{i.advisor_image}}
+        <img src="{{i.advisor_image }}">
         
     {% endfor %}
     </ul>

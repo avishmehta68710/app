@@ -1,5 +1,5 @@
 {% extends "main.html" %}   
-
+{% load static %}
 {% block content %}
 <h1>Booked Calls</h1>
     {% for i in content %}
@@ -7,7 +7,7 @@
             <strong>{{j.advisor_name}}</strong>
             <br>
             <ul>
-            <strong>{{j.advisor_image }}</strong>
+            <img src="{{STATIC_URL}}{{j.advisor_image }}">
             <br>
             <strong>{{j.advisor_id }}</strong>
             <strong>{{j.date}}</strong>
