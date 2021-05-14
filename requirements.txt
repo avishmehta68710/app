@@ -1,6 +1,5 @@
 
 django
-django-rest_framework
 djangorestframework
 djangorestframework-simplejwt
 whitenoise
