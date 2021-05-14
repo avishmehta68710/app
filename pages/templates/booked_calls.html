@@ -2,8 +2,20 @@
 
 {% block content %}
 <h1>Booked Calls</h1>
+<!-- {{content}} -->
     {% for i in content %}
-        <strong>{{i}}</strong>
+        {% for j in i %}
+            <strong>{{j.advisor_name}}</strong>
+            <br>
+            <ul>
+            <strong>{{j.advisor_image }}</strong>
+            <br>
+            <strong>{{j.advisor_id }}</strong>
+            <strong>{{j.date}}</strong>
+            <br>
+            <strong>{{j.booking_id}}</strong>
+            </ul>
+        {% endfor %}
     {% endfor %}
     <!-- {{cont}}
     {{c}} -->
